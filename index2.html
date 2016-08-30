@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+			<style>
+			body{
+				background-color:lightyellow;
+			}
+			h1 {
+			   text-align: center;
+			   padding-bottom: 12px;
+			}
+			p,h2{
+				padding-left: 250px; 
+				padding-top: 30px;
+			}
+			img{
+				position: absolute; 
+				float: top-right;
+				left: 50px;
+				top: 140px;
+			}		
+			#quote{
+				text-align: right;
+				color: rgb(25,25,25);
+				position: absolute;
+				bottom: 15px;
+				right: 50px;
+			}
+		</style>
+	    <title>Using Bootstrap</title>
+	    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">	
+	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<h1>WELCOME</h1>
+		<div class="btn-group btn-group-justified" style="padding:0px 50px">
+   			<a href="#" class="btn btn-primary">About</a>
+   			<a href="#" class="btn btn-primary">My Projects</a>
+  	        <a href="#" class="btn btn-primary">Gallery</a>
+  	    <div class="btn-group btn-group-justified">
+  		    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Contribute <span class="caret"></span></button>
+ 				  <ul class="dropdown-menu" role="menu">
+    			  	<li><a href="#">Pledge on patreon <span class="glyphicon glyphicon-heart-empty"></a></li>
+			      	<li><a href="#">Buy me a cup of coffee!</a></li>    
+			      </ul>
+		</div>
+		</div>
+		<h2 id="name">Hi! I'm Vismay Agrawal</h2>
+		<p>I'm currentely a student of Engineering Design in IIT Madras.</p>
+		<p>For more info here is a link to my <a href="https://www.facebook.com/vismayagrawal"> fb account</a></p>
+	    <img src="me.jpg" alt="Me" style="width:180px;height:235px;">
+	    <p id="quote">If today were last day of your life, Would you want to do what you are about to do today.<br>~Steve Jobs</p>
+	</body>
+</html> 
